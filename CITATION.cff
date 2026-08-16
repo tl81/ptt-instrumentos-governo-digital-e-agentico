@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Se você utilizar este Produto Técnico Tecnológico, a Base de Dados ou a metodologia LACA em sua pesquisa ou fiscalização, por favor cite como abaixo."
+type: dataset
+title: "Base de Dados: Instrumentos de Indução da Maturidade de Governo Digital e Agêntico na Educação"
+authors:
+  - family-names: "Souza"
+    given-names: "Tiago Marafante Lins de"
+    affiliation: "Instituto Serzedello Corrêa (ISC/TCU)"
+  - family-names: "Sandes"
+    given-names: "Edans Flávius de Oliveira"
+    affiliation: "Instituto Serzedello Corrêa (ISC/TCU)"
+repository-code: "https://github.com/SeuUsuario/ptt-instrumentos-governo-digital-e-agentico"
+url: "https://github.com/SeuUsuario/ptt-instrumentos-governo-digital-e-agentico"
+abstract: "Produto Técnico Tecnológico (PTT) contendo a Base de Dados com 909 instrumentos governamentais e de Inteligência Artificial para indução da maturidade em Governo Digital e Agêntico na Educação, desenvolvido com metodologia LACA no Mestrado Profissional do ISC/TCU."
+keywords:
+  - "Governo Digital"
+  - "Governo Agêntico"
+  - "Participação Cidadã"
+  - "Valor Público"
+  - "Controle Externo"
+  - "TCU"
+  - "Inteligência Artificial"
+  - "LACA"
+version: 1.0.0
+date-released: "2026-08-16"
