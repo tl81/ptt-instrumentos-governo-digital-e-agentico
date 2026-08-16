@@ -41,35 +41,45 @@ Para garantir a transparência e a auditabilidade dos dados, esclarece-se a rela
 
 ---
 
+### 🤖 Isolamento Arquitetônico: Infraestrutura de IA vs. Governo Agêntico
+
+A análise automatizada do corpus científico revelou um estágio claro de transição na literatura sobre transformação digital no setor público:
+
+* **Análise Qualitativa de Contexto (Coluna O / `evid_orq_mult_IA`):** Identificou **204 ocorrências** associadas à infraestrutura geral de Inteligência Artificial, automação básica e digitalização de serviços públicos.
+* **Isolamento Arquitetônico Estrito (Coluna P / `uso_evid_orq_mult_IA`):** Mediante parametrização 5W2H, consolidou um núcleo de **176 instrumentos** legitimamente relacionáveis ao paradigma do **Governo Agêntico**.
+
+Esse comportamento dos dados comprova que, embora a discussão sobre IA isolada (como chatbots reativos e algoritmos preditivos simples) seja pulverizada, a verdadeira orquestração autônoma de múltiplos agentes — motor central do **Modelo CoValor** proposto na dissertação — constitui a fronteira emergente da literatura contemporânea (2025–2026).
+
+---
+
 ## 📁 Estrutura do Repositório
 
 | Arquivo / Pasta | Descrição |
 | :--- | :--- |
-| `dataset-ptt-instrumentos-governo-digital-e-agentico.xlsx` | Planilha executiva contendo a aba `dashboard` (Painel Analítico) e a aba `dataset` (Base Estruturada). |
+| `dataset-ptt-instrumentos-governo-digital-e-agentico.xlsx` | Planilha executiva contendo a aba `dashboard` (Painel Analítico) e a aba `dataset` (Base Estruturada e Auditável). |
 | `dataset-ptt-instrumentos-governo-digital-e-agentico.csv` | Matriz em dados abertos (texto puro UTF-8 delimitado por ponto e vírgula) para consumo automatizado em Python, R e Power BI. |
-| `README.md` | Documentação completa do repositório, metodologia LACA e instruções de reuso. |
+| `README.md` | Documentação completa do repositório, metodologia LACA, métricas de colunas e instruções de reuso. |
 | `CITATION.cff` | Arquivo de citação bibliográfica automatizada para uso acadêmico. |
 | `LICENSE` | Licença de uso e redistribuição pública (Creative Commons CC BY 4.0). |
 
 ---
 
-## 📊 Dicionário de Dados
+## 📊 Dicionário de Dados e Mapeamento de Colunas
 
-A matriz de dados do repositório estrutura-se em 11 campos essenciais de atributos analíticos e metadados autorais:
+A matriz principal de dados do repositório (`dataset`) organiza-se em 27 colunas de extração bruta do LACA e metadados analíticos, com destaque para os atributos descritivos e de parametrização avançada:
 
-| Coluna | Descrição Técnica e Função no PTT |
-| :--- | :--- |
-| `ID` | Identificador numérico sequencial único do instrumento na base de dados. |
-| `NOME_INSTRUMENTO` | Denominação oficial da tecnologia, política pública, norma ou prática governamental. |
-| `CATEGORIA` | Enquadramento dedutivo em uma ou mais das 10 macrocategorias de indução. |
-| `DESCRICAO` | Síntese funcional do instrumento, explicitando seus objetivos e modo de atuação. |
-| `TERRITORIO_APLICACAO` | Jurisdição ou local de implementação (município, estado, país ou modelo teórico). |
-| `EVIDENCIA` | Trechos literais extraídos do corpus bibliográfico que comprovam o funcionamento da prática. |
-| `GRAU_IMPLEMENTACAO` | Estágio de prontidão (proposto, protótipo, em produção ou com resultados mensurados). |
-| `RESULTADOS_REPORTADOS` | Impactos qualitativos ou quantitativos observados na geração de Valor Público. |
-| `AUTOR` | Metadados autorais da publicação científica ou documento fonte. |
-| `ANO` | Ano de publicação do documento original. |
-| `REFERENCIA` | Citação bibliográfica completa da fonte original formatada em padrão ABNT. |
+| Campo / Coluna | Nome na Base (`dataset`) | Descrição Técnica e Função no PTT |
+| :--- | :--- | :--- |
+| **Identificador / Nome** | `nm_ins` | Nome ou denominação oficial da tecnologia, política pública, norma ou prática governamental. |
+| **Descrição Funcional** | `descr` | Síntese do funcionamento e objetivo principal do instrumento. |
+| **Categoria Teórica** | `categ` | Enquadramento dedutivo em uma ou mais das 10 macrocategorias de indução. |
+| **Território de Aplicação** | `territ` | Jurisdição ou local de implementação (município, estado, país ou modelo teórico). |
+| **Grau de Implementação** | `gr_impl` | Estágio de prontidão (proposto, protótipo, em produção ou com resultados mensurados). |
+| **Resultados Reportados** | `res` | Impactos qualitativos ou quantitativos observados na geração de Valor Público. |
+| **Contexto de IA (Coluna O)** | `evid_orq_mult_IA` | Mapeamento qualitativo da infraestrutura geral de IA e automação em serviços públicos (**204 ocorrências**). |
+| **Governo Agêntico 5W2H (Coluna P)** | `uso_evid_orq_mult_IA` | Parametrização estrita de isolamento da orquestração multiagente autônoma do paradigma do Governo Agêntico (**176 instrumentos**). |
+| **Participação Cidadã** | `tp_part_cidada` / `coprod_cid` | Tipologia de engajamento social e mecanismos de coprodução de valor público observados. |
+| **Metadados Autorais** | `autor` / `ano` / `titulo` / `referencia` | Informações de autoria, ano de publicação e citação ABNT completa da fonte bibliográfica. |
 
 ---
 
