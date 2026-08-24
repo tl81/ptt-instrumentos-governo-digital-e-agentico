@@ -1,0 +1,13 @@
+Prompt para cruzar o Corpus Científico com o Corpus de Controle Externo e Referenciais de Gestão e fazer parte da montagem do checklist:
+
+> Parametrização do Prompt RAG para a Construção do Checklist:
+> • Objetivo e Saída: Analisar os acervos anexos e gerar uma matriz de Checklist de Requisitos Ideais (em formato de planilha) capaz de guiar a gestão municipal e orientar auditorias do Tribunal de Contas da União (TCU).
+> • Inputs da Base de Conhecimento:
+>   1. Corpus Científico: União dos 69 artigos da revisão de escopo e da amostra de calibração do Objetivo 1.
+>   2. Corpus de Controle Externo e Referenciais de Gestão (12 fontes): Leis nacionais (Lei do Governo Digital, LGPD, PNE), Portaria MEC nº 234/2025, Acórdão 2487/2022-TCU, Referenciais do TCU e da OCDE, acrescidos dos casos de implementação da SEFAZ-MT e AprendiZAP.
+> • Restrição Categórica: Formular questões que contemplem obrigatoriamente as 10 dimensões analíticas da pesquisa: Cidadania Digital, Canal Inteligente de Serviços, Coprodução de Valor Público, Insights e Dados para Participação Cidadã, Governança Digital, Comunicação/WhatsApp, Governo Digital Proativo, Orçamento Participativo, Evolução de Leis e Normas e Automatização e IA.
+> • Alinhamento aos Pilares Teóricos da Pesquisa:
+>   - Holismo Baseado em Necessidades (Needs-based Holism): Refino dos requisitos para garantir que a participação cidadã considere o ciclo longo e contínuo da educação (matrícula, frequência, desempenho e busca ativa) de forma integrada, conforme Dunleavy et al. (2006);
+>   - Coprodução e Cocriação de Valor Público: Ajuste dos itens para que prevejam instâncias de interação onde o cidadão contribui ativamente para a solução de problemas locais (LINDERS, 2012; MEIJER; BOON, 2021);
+>   - Fechamento do Ciclo de Accountability: Verificação de requisitos que garantam o retorno ativo do Estado (government feedback), assegurando que cada interação individual gere uma resposta ou atualização de status para o cidadão (SCHMIDTHUBER et al., 2021);
+>   - Estratégias Paraconsistentes e IA no Governo: Incorporação de critérios de tratamento de dados massivos e orquestração algorítmica para suporte à decisão gerencial (MEIRA, 2024; WIRTZ et al., 2019; OCDE, 2025).
