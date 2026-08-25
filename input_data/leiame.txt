@@ -1,0 +1,1 @@
+Carregue esses dois arquivos no seu ambiente de execução de python para seguir a reprodução.
